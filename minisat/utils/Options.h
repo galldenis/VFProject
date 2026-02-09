@@ -282,15 +282,25 @@ class Int64Option : public Option
         if (range.begin == INT64_MIN)
             fprintf(stderr, "imin");
         else
+<<<<<<< HEAD
             fprintf(stderr, "%4"PRIi64, range.begin);
+=======
+            fprintf(stderr, "%4" PRIi64, range.begin);
+>>>>>>> 764b083164660752ad6190d91bea4a57b110bd51
 
         fprintf(stderr, " .. ");
         if (range.end == INT64_MAX)
             fprintf(stderr, "imax");
         else
+<<<<<<< HEAD
             fprintf(stderr, "%4"PRIi64, range.end);
 
         fprintf(stderr, "] (default: %"PRIi64")\n", value);
+=======
+            fprintf(stderr, "%4" PRIi64, range.end);
+
+        fprintf(stderr, "] (default: %" PRIi64")\n", value);
+>>>>>>> 764b083164660752ad6190d91bea4a57b110bd51
         if (verbose){
             fprintf(stderr, "\n        %s\n", description);
             fprintf(stderr, "\n");

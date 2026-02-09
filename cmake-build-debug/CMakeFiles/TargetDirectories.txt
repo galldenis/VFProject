@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/minisat-lib-static.dir
 D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/minisat-lib-shared.dir
 D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/minisat_core.dir
@@ -8,3 +9,15 @@ D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/list_install_c
 D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/install.dir
 D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/install/local.dir
 D:/Master/VF/restanta/minisat-master/cmake-build-debug/CMakeFiles/install/strip.dir
+=======
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/minisat-lib-static.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/minisat-lib-shared.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/minisat_core.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/minisat_simp.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/list_install_components.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/install.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/install/local.dir
+D:/Master/VF/final_project/minisat/cmake-build-debug/CMakeFiles/install/strip.dir
+>>>>>>> 764b083164660752ad6190d91bea4a57b110bd51
