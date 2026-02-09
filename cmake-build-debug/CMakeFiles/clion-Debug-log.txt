@@ -1,0 +1,92 @@
+"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Master\VF\restanta\minisat-master -B D:\Master\VF\restanta\minisat-master\cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+-- Configuring done (3.3s)
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+ZLIB_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+   used as include directory in directory D:/Master/VF/restanta/minisat-master
+ZLIB_LIBRARY
+    linked by target "minisat-lib-static" in directory D:/Master/VF/restanta/minisat-master
+    linked by target "minisat-lib-shared" in directory D:/Master/VF/restanta/minisat-master
+
+CMake Warning (dev) in CMakeLists.txt:
+  Policy CMP0021 is not set: Fatal error on relative paths in
+  INCLUDE_DIRECTORIES target property.  Run "cmake --help-policy CMP0021" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Found relative path while evaluating include directories of
+  "minisat-lib-static":
+
+    "ZLIB_INCLUDE_DIR-NOTFOUND"
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  Policy CMP0021 is not set: Fatal error on relative paths in
+  INCLUDE_DIRECTORIES target property.  Run "cmake --help-policy CMP0021" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Found relative path while evaluating include directories of
+  "minisat-lib-shared":
+
+    "ZLIB_INCLUDE_DIR-NOTFOUND"
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  Policy CMP0021 is not set: Fatal error on relative paths in
+  INCLUDE_DIRECTORIES target property.  Run "cmake --help-policy CMP0021" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Found relative path while evaluating include directories of "minisat_core":
+
+    "ZLIB_INCLUDE_DIR-NOTFOUND"
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  Policy CMP0021 is not set: Fatal error on relative paths in
+  INCLUDE_DIRECTORIES target property.  Run "cmake --help-policy CMP0021" for
+  policy details.  Use the cmake_policy command to set the policy and
+  suppress this warning.
+
+  Found relative path while evaluating include directories of "minisat_simp":
+
+    "ZLIB_INCLUDE_DIR-NOTFOUND"
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.0s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.
